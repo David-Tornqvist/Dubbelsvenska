@@ -1,5 +1,5 @@
 const button = document.getElementById("add_text");
-const output = document.getElementById("output");
+const outputToWebsite = document.getElementById("output");
 const input = document.getElementById("input");
 
 function dubbleWord (){
@@ -18,6 +18,8 @@ function dubbleWord (){
         
     }
     
+
+    outputToWebsite.innerHTML = output;
     console.log(output);
 
 }
